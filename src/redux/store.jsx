@@ -1,5 +1,8 @@
-import { createStore } from "redux";
+import { createStore, combineReducers } from "redux";
 import phoneReducer from "./phone/reducerPhone";
+
+
+
 
 
 const store = createStore(phoneReducer)
