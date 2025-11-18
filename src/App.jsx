@@ -1,12 +1,10 @@
+import PhoneComponent from "./components/PhoneComponent.jsx";
 
-
-import './App.css'
-
-function App() {
+const App = () => {
 
   return (
-    <div>
-
+    <div className="section-one">
+      <PhoneComponent />
     </div>
   )
 }
