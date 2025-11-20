@@ -1,5 +1,6 @@
-import PhoneComponent from "./components/PhoneComponent.jsx";
-import TabletComponent from "./components/TabletComponent.jsx";
+import PhoneContainer from "./components/PhoneContainer.jsx";
+import TabletContainer from "./components/TabletContainer.jsx";
+import TvContainer from "./components/tvContainer.jsx";
 import store from "./redux/store.jsx";
 import { Provider } from "react-redux";
 
@@ -8,8 +9,9 @@ const App = () => {
   return (
     <Provider store={store}>
       <div className="section-one">
-        <PhoneComponent />
-        <TabletComponent />
+        <PhoneContainer />
+        <TabletContainer />
+        <TvContainer />
       </div>
     </Provider>
   )
